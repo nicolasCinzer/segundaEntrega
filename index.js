@@ -93,6 +93,7 @@ const main = () => {
 
     auctions.push(auction);
     buildAuction(auction, listOfAuctions);
+    alert('Felicitaciones ' + auctioneer + '! Se registro el inicio de la Subasta "' + item + '" a ' + initialPrice + '$.');
   };
 
   searchAuction.onclick = () => {
